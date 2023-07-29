@@ -13,8 +13,8 @@ This is a solution to the [3-column preview card component challenge on Frontend
 - [Author](#author)
 
 ## Overview
+Pretty basic card design but fun to do.
 
-Used a mobile first responsive approach.
 ### The challenge
 
 Users should be able to:
@@ -30,16 +30,17 @@ Users should be able to:
 ### Links
 
 - Solution URL: (https://github.com/d-donne/preview-card-component.git)
-- Live Site URL: [Open](https://d-donne.github.io/preview-card-component/)
+- Live Site URL: [Preview](https://d-donne.github.io/preview-card-component/)
 
 ## My process
+Used a mobile first responsive approach. 
+
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
 
 ## Author
