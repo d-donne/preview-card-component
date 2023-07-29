@@ -14,6 +14,7 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 ## Overview
 
+Used a mobile first responsive approach.
 ### The challenge
 
 Users should be able to:
@@ -23,7 +24,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](/images/page-desktop-shot.png)
 
 
 ### Links
