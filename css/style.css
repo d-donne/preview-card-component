@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+:root {
+    /* background Colors */
+    --bright-orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --very-dark-cyan: hsl(179, 100%, 13%);
+
+    /* font colors */
+    --font-clr-primary: hsla(0, 0%, 100%, 0.75);
+
+    --very-light-gray: hsl(0, 0%, 95%);
+
+    /* font family */
+    --font-primary: 'Lexend Deca', sans-serif;
+    --font-accent: 'Big Shoulders Display', cursive;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--very-light-gray);
+    width: 100vw;
+    height: 100vh;
+    font-family: var(--font-primary);
+    font-size: 0.9375rem;
+    line-height: 1.5;
+    padding-block: 88px;
+}
+
+a, a:active {
+    text-decoration: none;
+}
+
+.container {
+    width: 325px;
+    max-width: 57.5rem;
+    margin: auto;
+    overflow: hidden;
+    border-radius: .5rem;
+}
+
+.card {
+    padding: 2.75rem;
+}
+
+
+.card-heading {
+    color: var(--very-light-gray);
+    font-family: var(--font-accent);
+    margin-block: 2.5rem;
+}
+
+.card-text {
+    color: var(--font-clr-primary);
+    width: 14.0625rem;
+    margin-bottom: 1.5625rem;
+}
+
+
+.container .sedan {
+    background-color: var(--bright-orange);
+    color: var(--bright-orange);
+}
+
+.container .suv {
+    background-color: var(--dark-cyan);
+    color: var(--dark-cyan);
+}
+
+.container .luxury {
+    background-color: var(--very-dark-cyan);
+    color: var(--very-dark-cyan);
+}
+
+.container .btn {
+    display: inline-block;
+    background-color: var(--very-light-gray);
+    width: 150px;
+    color: inherit;
+    text-align: center;
+    padding-block: 1rem;
+    border-radius: 2rem;
+}
+
+.container .btn:hover {
+    box-sizing: border-box;
+    background-color: transparent;
+    color: var(--font-clr-primary);
+    outline: 2px solid var(--very-light-gray);
+}
+
